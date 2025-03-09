@@ -57,15 +57,21 @@ body {
 }
 .details {
     display:flex;
-    padding-top: 15vh;
-    padding-left: 3vh;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 13vh;
 }
 .humidity {
-     padding-left: 3vh;
+    
+     display: flex;
+     flex-direction: column;
 }
-.hum {
-    font-size: 5vh;
+.total {
+    display: flex;
+     flex-direction: column;
+    margin-left: 2vh;
 }
+
 .details1 {
     display: flex;
 }
@@ -73,26 +79,11 @@ body {
     display: flex;
 }
 .col2 {
-    padding-left: 5vh;
+    padding-left: 0;
     position: relative;
     bottom: 1vh;
 }
-.wind {
-    padding-left:1vh;
-}
-.win {
-    font-size: 5vh;
-}
-.humi {
-    position: relative;
-    bottom: 6vh;
-    padding-right: 20vh;
-}
-.wind2 {
-    padding-left: 28vh;
-    position: relative;
-    bottom: 9vh;
-}
+
 .teci {
     display: none;
 }

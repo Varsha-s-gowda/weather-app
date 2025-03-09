@@ -41,5 +41,5 @@ else {
 }
 }
 searchBtn.addEventListener("click",()=>{
-    checkWeather(searchBox.value);
+        checkWeather(searchBox.value);
 });
